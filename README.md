@@ -60,7 +60,7 @@ module.exports = {
 
 ## Dependencies
 
-This plugin has been tested for WebPack versions 1.12.14.
+This plugin has been tested for WebPack versions 1.0.0 till 1.12.14.
 
 
 ## Testing
