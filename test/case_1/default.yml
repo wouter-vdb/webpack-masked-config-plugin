@@ -1,0 +1,6 @@
+
+val_1: 123
+val_2: 456
+obj_A:
+  val_A1: 'abc'
+  val_A2: 'def'

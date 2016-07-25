@@ -1,0 +1,42 @@
+{
+  "author": {
+    "name": "Wouter Van den Broeck",
+    "email": "wouter@addith.be"
+  },
+  "bugs": {
+    "url": "https://github.com/wouter-vdb/webpack-masked-config-plugin/issues"
+  },
+  "dependencies": {
+    "config": "^1.21.0",
+    "js-yaml": "^3.6.1",
+    "mkdirp": "^0.5.1",
+    "nested-object-mask": "^0.1.5"
+  },
+  "description": "Webpack plugin that creates a module with masked and customized configuration loaded with node-config.",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.5.3",
+    "rimraf": "^2.5.3",
+    "webpack": "~1"
+  },
+  "engines": {
+    "node": ">=4.4.5"
+  },
+  "homepage": "https://github.com/wouter-vdb/webpack-masked-config-plugin",
+  "keywords": [
+    "webpack",
+    "plugin",
+    "config",
+    "mask"
+  ],
+  "licenses": "MIT",
+  "main": "lib/index.js",
+  "name": "webpack-masked-config-plugin",
+  "peerDependencies": {
+    "webpack": "~1"
+  },
+  "scripts": {
+    "test": "./node_modules/.bin/mocha"
+  },
+  "version": "0.0.5"
+}
