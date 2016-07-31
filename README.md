@@ -21,6 +21,8 @@ To use this plugin you need to add it in the `plugins` list in the `webpack.conf
 | `extend` | object | Optionally add values in the target configuration at build-time by extending is with the given object. The configuration is extended with the [_extendDeep_ utiliy](https://github.com/lorenwest/node-config/wiki/Using-Config-Utilities) in the the node-config package.
 | `morph` | function | Optionally transform the config object arbitrarily. The given function is called with the masked and extended config object as sole argument. It should return the target config object, which may be the given config object that was modified, or a new object.
 | `target` | string | The resulting configuration object is normally saved as a loadable module in `config.js` in the current working directory. You can override the location and name of this module by providing the target path as this option.
+| `debug` | boolean | When true, the steps in the transformation process are traced using the log option. |
+| `log` | Object | An object that has two methods: debug() en error(), which both take an arbitrary number of arguments and logs these appropriately. The default implementation uses `console.log` and `console.error`. |
 
 [^1]: The value of `process.cwd()`.
 

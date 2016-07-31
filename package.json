@@ -15,6 +15,7 @@
   "description": "Webpack plugin that creates a module with masked and customized configuration loaded with node-config.",
   "devDependencies": {
     "chai": "^3.5.0",
+    "lodash": "^4.14.1",
     "mocha": "^2.5.3",
     "rimraf": "^2.5.3",
     "webpack": "~1"
@@ -29,7 +30,7 @@
     "config",
     "mask"
   ],
-  "licenses": "MIT",
+  "license": "MIT",
   "main": "lib/index.js",
   "name": "webpack-masked-config-plugin",
   "peerDependencies": {
@@ -42,5 +43,5 @@
   "scripts": {
     "test": "./node_modules/.bin/mocha"
   },
-  "version": "0.0.6"
+  "version": "0.1.0"
 }
