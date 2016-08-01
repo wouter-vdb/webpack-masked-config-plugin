@@ -76,16 +76,11 @@ describe('TestCases', () => {
   });
 
   after((done) => {
-    fs.unlink('config.js', (error) => {
+    rimraf('./test/output/', (error) => {
       if (error) {
-        console.error('Failed to remove config.js.', error);
+        console.error('Failed to remove output dir after tests.', error);
       }
-      rimraf('./test/output/', (error) => {
-        if (error) {
-          console.error('Failed to remove output dir after tests.', error);
-        }
-        done();
-      });
+      done();
     });
   });
 
