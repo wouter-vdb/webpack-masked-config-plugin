@@ -1,5 +1,7 @@
 # webpack-masked-config-plugin
 
+[![npm](https://img.shields.io/npm/v/webpack-masked-config-plugin.svg)](https://www.npmjs.com/package/webpack-masked-config-plugin)
+
 ## Synopsis
 
 This [WebPack][] plugin loads a configuration object from one or several config files. It optionally excludes values from the configuration according to a given mask object, and/or extends it with additional properties. The plugin then saves the resulting configuration object as a module that can be included in the asset bundles produced by WebPack.
@@ -8,6 +10,9 @@ This plugin is useful when you want to manage the front-end and back-end configu
 
 This plugin uses [node-config](https://www.npmjs.com/package/config) to load the configuration object and [object-mask](https://www.npmjs.com/package/object-mask) to mask it.
 
+## Changelog
+
+See [Changelog](CHANGELOG.md)
 
 ## Using this plugin
  
