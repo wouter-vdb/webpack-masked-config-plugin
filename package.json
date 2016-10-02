@@ -33,9 +33,6 @@
   "license": "MIT",
   "main": "lib/index.js",
   "name": "webpack-masked-config-plugin",
-  "peerDependencies": {
-    "webpack": "~1"
-  },
   "repository": {
     "type": "git",
     "url": "https://github.com/wouter-vdb/webpack-masked-config-plugin.git"
@@ -43,5 +40,5 @@
   "scripts": {
     "test": "./node_modules/.bin/mocha"
   },
-  "version": "0.2.0"
+  "version": "0.2.1"
 }
